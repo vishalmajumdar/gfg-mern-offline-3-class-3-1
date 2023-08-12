@@ -14,5 +14,29 @@
     <!-- external stylesheet -->
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <main class="container">
+      <header>
+        <button class="reset">Again!</button>
+        <p class="range">(Between 1 and 20)</p>
+      </header>
+      <h1 class="title">Guess My Number!</h1>
+      <hr />
+      <p class="answer"></p>
+      <section class="field">
+        <div class="enter">
+          <form>
+            <input type="text" name="enter" id="enter" />
+            <input type="submit" value="Check!" />
+          </form>
+        </div>
+        <div class="scores">
+          <p>Start guessing...</p>
+          <br /><br />
+          <p class="score">💯 Score: 20</p>
+          <p class="score">🥇 Highscore: 0</p>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
