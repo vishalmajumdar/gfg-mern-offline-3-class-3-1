@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  font-family: "Press Start 2P", cursive;
+}
+
+body {
+  background-color: #222222;
+  color: #eeeeee;
+  height: 100vh;
+}
+
+header {
+  padding: 15px;
+  min-height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+header button {
+  border: none;
+  padding: 20px 30px;
+  cursor: pointer;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+  margin: 10px 0px;
+}
+
+hr {
+  height: 5px;
+  background-color: #eeeeee;
+  border: none;
+  margin: 80px 0px;
+  width: 100%;
+}
+
+.answer {
+  text-align: center;
+  font-size: 44px;
+  background-color: #eeeeee;
+  color: #333333;
+  padding: 30px 50px;
+  max-width: 30px;
+  position: absolute;
+  top: 80px;
+}
+
+.field {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  position: relative;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  right: 60%;
+}
+
+.input {
+  font-size: 20px;
+  border: 2px solid #eeeeee;
+  background-color: #222222;
+  padding: 25px;
+  color: #eeeeee;
+  text-align: center;
+  max-width: 30%;
+}
+
+.input:focus {
+  outline: none;
+}
+
+/* hide scroll in input number */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.submit {
+  max-width: 30%;
+  margin-top: 20px;
+  border: none;
+  padding: 20px 25px;
+  cursor: pointer;
+}
+
+.scores {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  position: absolute;
+  left: 60%;
+}

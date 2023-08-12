@@ -16,27 +16,36 @@
   </head>
   <body>
     <main class="container">
+      <!-- header start -->
       <header>
         <button class="reset">Again!</button>
         <p class="range">(Between 1 and 20)</p>
       </header>
-      <h1 class="title">Guess My Number!</h1>
-      <hr />
-      <p class="answer"></p>
+      <!-- header end -->
+      <!-- section display start -->
+      <section class="display">
+        <h1 class="title">Guess My Number!</h1>
+        <hr />
+        <p class="answer">?</p>
+      </section>
+      <!-- section display end -->
+      <!-- section field start -->
       <section class="field">
         <div class="enter">
           <form>
-            <input type="text" name="enter" id="enter" />
-            <input type="submit" value="Check!" />
+            <input type="number" name="enter" id="enter" class="input" />
+            <input type="submit" value="Check!" class="submit" />
           </form>
         </div>
         <div class="scores">
           <p>Start guessing...</p>
           <br /><br />
           <p class="score">💯 Score: 20</p>
+          <br />
           <p class="score">🥇 Highscore: 0</p>
         </div>
       </section>
+      <!-- section field end -->
     </main>
   </body>
 </html>
