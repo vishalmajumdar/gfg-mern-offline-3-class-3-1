@@ -17,7 +17,7 @@ Want to work on this code then download any browser and VS Code then follow the 
 
 ```sh
 git clone https://github.com/vishalmajumdar/gfg-mern-offline-3-class-3-1.git
-cd gfg-mern-offline-3-class-1
+cd gfg-mern-offline-3-class-3-1
 code .
 ```
 
